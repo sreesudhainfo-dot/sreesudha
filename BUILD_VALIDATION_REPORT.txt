@@ -1,0 +1,16 @@
+SREE SUDHA — FINAL SOURCE REVIEW
+Date: 2026-10-29
+
+PASS: Node.js built-in test runner on tests/crmRules.test.mjs
+      4 tests passed: plot price, commission, payment balance, hierarchical IDs.
+PASS: Syntactic parse of every frontend .ts/.tsx file (via TypeScript transpileModule).
+PASS: Complete source package contains app, Supabase migrations, passkey Edge Function, and staging setup guidance.
+
+NOT RUN: npm dependency installation or npm run build (npm packages unavailable in isolated packaging environment).
+NOT RUN: browser UI / Supabase staging migrations / deployed Edge Function / end-to-end attendance or payment tests.
+
+DO NOT deploy against production without cloning/backing up the existing Supabase project
+and verifying the migration, privileges, passkeys, geolocation rules, and finance workflows in staging.
+
+Calculation caveat: automatic commission applies to the selling agent only; multi-level referral
+incentive percentages were not provided by management. No upline commissions are fabricated.
